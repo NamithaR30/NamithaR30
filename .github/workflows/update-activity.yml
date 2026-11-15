@@ -34,6 +34,7 @@ jobs:
           git add assets/activity-30-days.svg
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh 30-day activity chart"
+            git pull --rebase origin main
             git push
           else
             echo "Activity chart is already up to date."
