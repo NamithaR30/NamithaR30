@@ -5,7 +5,7 @@ from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
-import html
+import re
 
 USERNAME = "NamithaR30"
 OUTPUT = Path("assets/activity-30-days.svg")
@@ -22,12 +22,21 @@ class ContributionParser(HTMLParser):
             return
         attrs = dict(attrs)
         raw_date = attrs.get("data-date")
-        raw_count = attrs.get("data-count")
-        if raw_date and raw_count is not None:
-            try:
-                self.days[date.fromisoformat(raw_date)] = int(raw_count)
-            except (ValueError, TypeError):
-                pass
+        if not raw_date:
+            return
+
+        # GitHub's contribution calendar exposes data-date and an aria-label
+        # (for example, "3 contributions on 2026-11-15").
+        label = attrs.get("aria-label", "")
+        match = re.search(r"(\d+) contributions?", label)
+        count = int(match.group(1)) if match else 0
+        if "no contributions" in label.lower():
+            count = 0
+
+        try:
+            self.days[date.fromisoformat(raw_date)] = count
+        except ValueError:
+            pass
 
 
 def fetch_contributions(start, end):
@@ -60,13 +69,10 @@ def level_for(count, maximum):
 
 
 def build_svg(counts, start, end):
-    # Monday-first calendar: 7 weekday rows and up to 6 week columns.
     offset = start.weekday()
     max_count = max(counts.values(), default=0)
-    cell = 17
-    gap = 6
-    left = 94
-    top = 48
+    cell, gap = 17, 6
+    left, top = 94, 48
     labels = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     width = left + 6 * (cell + gap) + 22
     height = top + 7 * (cell + gap) + 42
@@ -96,9 +102,8 @@ def build_svg(counts, start, end):
             f'<title>{day.isoformat()}: {count} contributions</title></rect>'
         )
 
-    legend_y = top + 7 * (cell + gap) + 16
+    legend_y, legend_x = top + 7 * (cell + gap) + 16, 54
     parts.append(f'<text x="20" y="{legend_y}" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Less</text>')
-    legend_x = 54
     for i, color in enumerate(COLORS):
         parts.append(f'<rect x="{legend_x + i*22}" y="{legend_y-10}" width="14" height="14" rx="3" fill="{color}"/>')
     parts.append(f'<text x="{legend_x + 5*22 + 2}" y="{legend_y}" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">More</text>')
