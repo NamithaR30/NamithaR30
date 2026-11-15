@@ -37,40 +37,15 @@ Building practical applications, exploring AI, and improving through consistent 
 
 ## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> FEATURED PROJECTS
 
-<table>
-<tr>
-<td width="50%">
-<h3>⌁ FlexiBot</h3>
-AI-powered fitness assistant with personalized workouts, tracking and reminders.
+<div align="center">
 
-<sub>JavaScript · Node.js · Gemini API</sub><br/>
-<a href="https://github.com/NamithaR30/FlexiBot">Explore project ↗</a>
-</td>
-<td width="50%">
-<h3>▣ FlexiBot Android</h3>
-Android fitness assistant built with Java and XML.
+<a href="https://github.com/NamithaR30/FlexiBot"><img src="assets/project-flexibot.svg" alt="FlexiBot — AI-powered fitness assistant" width="49%" /></a>
+<a href="https://github.com/NamithaR30/FlexiBot-Android"><img src="assets/project-flexibot-android.svg" alt="FlexiBot Android — Java and XML fitness assistant" width="49%" /></a>
 
-<sub>Java · XML · Android</sub><br/>
-<a href="https://github.com/NamithaR30/FlexiBot-Android">Explore project ↗</a>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<h3>◇ Hydramatics Solution</h3>
-Website showcasing company services and products.
+<a href="https://github.com/NamithaR30/hydramatics-solution"><img src="assets/project-hydramatics.svg" alt="Hydramatics Solution — company services website" width="49%" /></a>
+<a href="https://github.com/NamithaR30/LeetCode-Java"><img src="assets/project-leetcode-java.svg" alt="LeetCode Java — DSA solutions" width="49%" /></a>
 
-<sub>HTML · CSS · JavaScript</sub><br/>
-<a href="https://github.com/NamithaR30/hydramatics-solution">Explore project ↗</a>
-</td>
-<td width="50%">
-<h3>&lt;/&gt; LeetCode Java</h3>
-Java solutions to LeetCode problems, organised by topic with explanations and complexity analysis.
-
-<sub>Java · DSA · Problem Solving</sub><br/>
-<a href="https://github.com/NamithaR30/LeetCode-Java">Explore project ↗</a>
-</td>
-</tr>
-</table>
+</div>
 
 <img src="assets/red-divider.svg" width="100%" height="4" alt="" />
 
