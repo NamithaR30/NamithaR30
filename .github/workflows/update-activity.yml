@@ -1,9 +1,10 @@
-name: Update 30-day contribution chart
+name: Update profile dashboards
 
 on:
   push:
     paths:
       - "scripts/update_activity.py"
+      - "scripts/update_projects.py"
       - ".github/workflows/update-activity.yml"
   schedule:
     - cron: "17 2 * * *"
@@ -13,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  update-chart:
+  update-profile:
     runs-on: ubuntu-latest
     steps:
       - name: Check out profile repository
@@ -24,18 +25,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate last-30-days chart
+      - name: Refresh GitHub activity chart
         run: python scripts/update_activity.py
 
-      - name: Commit chart if it changed
+      - name: Refresh latest public repository cards
+        run: python scripts/update_projects.py
+
+      - name: Commit generated profile assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+NamithaR30@users.noreply.github.com"
-          git add assets/activity-30-days.svg
+          git add README.md assets/activity-30-days.svg assets/latest-project-*.svg
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh 30-day activity chart"
+            git commit -m "chore: refresh profile dashboards"
             git pull --rebase origin main
             git push
           else
-            echo "Activity chart is already up to date."
+            echo "Profile dashboards are already up to date."
           fi
