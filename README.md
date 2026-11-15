@@ -42,12 +42,12 @@ Building practical applications, exploring AI, and improving through consistent 
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/NamithaR30/FlexiBot"><img src="assets/project-flexibot.svg" alt="FlexiBot" width="100%" /></a></td>
-<td width="50%"><a href="https://github.com/NamithaR30/FlexiBot-Android"><img src="assets/project-flexibot-android.svg" alt="FlexiBot Android" width="100%" /></a></td>
+<td width="50%" valign="top"><a href="https://github.com/NamithaR30/LeetCode-Java"><img src="assets/latest-project-1.svg" alt="LeetCode-Java" width="100%" /></a></td>
+<td width="50%" valign="top"><a href="https://github.com/NamithaR30/FlexiBot-Android"><img src="assets/latest-project-2.svg" alt="FlexiBot-Android" width="100%" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/NamithaR30/hydramatics-solution"><img src="assets/project-hydramatics.svg" alt="Hydramatics Solution" width="100%" /></a></td>
-<td width="50%"><a href="https://github.com/NamithaR30/LeetCode-Java"><img src="assets/project-leetcode-java.svg" alt="LeetCode Java" width="100%" /></a></td>
+<td width="50%" valign="top"><a href="https://github.com/NamithaR30/hydramatics-solution"><img src="assets/latest-project-3.svg" alt="hydramatics-solution" width="100%" /></a></td>
+<td width="50%"></td>
 </tr>
 </table>
 
