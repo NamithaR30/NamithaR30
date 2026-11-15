@@ -1,6 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 330 230" role="img" aria-label="30-day contribution chart will populate after the first workflow run">
-<rect width="330" height="230" rx="12" fill="#0D1117"/>
-<text x="18" y="26" fill="#D7E2EE" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">30-day contribution activity</text>
-<text x="18" y="112" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="12">Chart will populate after the first workflow run.</text>
-<text x="18" y="135" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="11">The grid refreshes automatically each day.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 254 251" role="img" aria-label="GitHub contribution activity for the last 30 days">
+<rect width="100%" height="100%" rx="12" fill="#0D1117"/>
+<text x="20" y="25" fill="#D7E2EE" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">30-day contribution activity</text>
+<text x="234" y="25" text-anchor="end" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="11">17 Oct – 15 Nov 2026</text>
+<text x="20" y="61" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Mon</text>
+<text x="20" y="107" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Wed</text>
+<text x="20" y="153" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Fri</text>
+<text x="20" y="199" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Sun</text>
+<rect x="94" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-17: activity level 0 of 4</title></rect>
+<rect x="94" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-18: activity level 0 of 4</title></rect>
+<rect x="117" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-19: activity level 0 of 4</title></rect>
+<rect x="117" y="71" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-20: activity level 0 of 4</title></rect>
+<rect x="117" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-21: activity level 0 of 4</title></rect>
+<rect x="117" y="117" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-22: activity level 0 of 4</title></rect>
+<rect x="117" y="140" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-23: activity level 0 of 4</title></rect>
+<rect x="117" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-24: activity level 0 of 4</title></rect>
+<rect x="117" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-25: activity level 0 of 4</title></rect>
+<rect x="140" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-26: activity level 0 of 4</title></rect>
+<rect x="140" y="71" width="17" height="17" rx="4" fill="#3A5876"><title>2026-10-27: activity level 2 of 4</title></rect>
+<rect x="140" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-28: activity level 0 of 4</title></rect>
+<rect x="140" y="117" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-29: activity level 0 of 4</title></rect>
+<rect x="140" y="140" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-30: activity level 0 of 4</title></rect>
+<rect x="140" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-31: activity level 0 of 4</title></rect>
+<rect x="140" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-01: activity level 0 of 4</title></rect>
+<rect x="163" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-02: activity level 0 of 4</title></rect>
+<rect x="163" y="71" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-03: activity level 0 of 4</title></rect>
+<rect x="163" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-04: activity level 0 of 4</title></rect>
+<rect x="163" y="117" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-05: activity level 0 of 4</title></rect>
+<rect x="163" y="140" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-06: activity level 0 of 4</title></rect>
+<rect x="163" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-07: activity level 0 of 4</title></rect>
+<rect x="163" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-08: activity level 0 of 4</title></rect>
+<rect x="186" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-09: activity level 0 of 4</title></rect>
+<rect x="186" y="71" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-10: activity level 0 of 4</title></rect>
+<rect x="186" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-11: activity level 0 of 4</title></rect>
+<rect x="186" y="117" width="17" height="17" rx="4" fill="#26384C"><title>2026-11-12: activity level 1 of 4</title></rect>
+<rect x="186" y="140" width="17" height="17" rx="4" fill="#5F83A8"><title>2026-11-13: activity level 3 of 4</title></rect>
+<rect x="186" y="163" width="17" height="17" rx="4" fill="#5F83A8"><title>2026-11-14: activity level 3 of 4</title></rect>
+<rect x="186" y="186" width="17" height="17" rx="4" fill="#9BBDE0"><title>2026-11-15: activity level 4 of 4</title></rect>
+<text x="20" y="225" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Less</text>
+<rect x="54" y="215" width="14" height="14" rx="3" fill="#161B22"/>
+<rect x="76" y="215" width="14" height="14" rx="3" fill="#26384C"/>
+<rect x="98" y="215" width="14" height="14" rx="3" fill="#3A5876"/>
+<rect x="120" y="215" width="14" height="14" rx="3" fill="#5F83A8"/>
+<rect x="142" y="215" width="14" height="14" rx="3" fill="#9BBDE0"/>
+<text x="166" y="225" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">More</text>
 </svg>
