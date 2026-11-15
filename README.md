@@ -37,15 +37,24 @@ Building practical applications, exploring AI, and improving through consistent 
 
 ## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> FEATURED PROJECTS
 
+<!-- AUTO-PROJECTS:START -->
 <div align="center">
 
-<a href="https://github.com/NamithaR30/FlexiBot"><img src="assets/project-flexibot.svg" alt="FlexiBot — AI-powered fitness assistant" width="49%" /></a>
-<a href="https://github.com/NamithaR30/FlexiBot-Android"><img src="assets/project-flexibot-android.svg" alt="FlexiBot Android — Java and XML fitness assistant" width="49%" /></a>
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/NamithaR30/FlexiBot"><img src="assets/project-flexibot.svg" alt="FlexiBot" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/NamithaR30/FlexiBot-Android"><img src="assets/project-flexibot-android.svg" alt="FlexiBot Android" width="100%" /></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/NamithaR30/hydramatics-solution"><img src="assets/project-hydramatics.svg" alt="Hydramatics Solution" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/NamithaR30/LeetCode-Java"><img src="assets/project-leetcode-java.svg" alt="LeetCode Java" width="100%" /></a></td>
+</tr>
+</table>
 
-<a href="https://github.com/NamithaR30/hydramatics-solution"><img src="assets/project-hydramatics.svg" alt="Hydramatics Solution — company services website" width="49%" /></a>
-<a href="https://github.com/NamithaR30/LeetCode-Java"><img src="assets/project-leetcode-java.svg" alt="LeetCode Java — DSA solutions" width="49%" /></a>
+<sub>Automatically refreshed daily · Latest public repositories, excluding forks and archived projects</sub>
 
 </div>
+<!-- AUTO-PROJECTS:END -->
 
 <img src="assets/red-divider.svg" width="100%" height="4" alt="" />
 
