@@ -1,10 +1,10 @@
-<!-- NAMITHAR30 | black + crimson developer profile -->
+<!-- NAMITHAR30 | black + crimson profile -->
 
 <div align="center">
 
 <img src="assets/profile-banner.svg" alt="Namitha R. — Software Developer" width="100%" />
 
-**Information Science Engineering Student &nbsp;·&nbsp; Aspiring Software Developer**
+**INFORMATION SCIENCE ENGINEERING STUDENT &nbsp;·&nbsp; ASPIRING SOFTWARE DEVELOPER**
 
 Building practical applications, exploring AI, and improving through consistent problem-solving.
 
@@ -13,9 +13,9 @@ Building practical applications, exploring AI, and improving through consistent 
 
 </div>
 
----
+<img src="assets/red-divider.svg" width="100%" height="4" alt="" />
 
-## <span style="color:#FF3048">//</span> About Me
+## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> ABOUT ME
 
 - Information Science Engineering student at New Horizon College of Engineering
 - Interested in software development, Android development, and AI-powered applications
@@ -23,7 +23,9 @@ Building practical applications, exploring AI, and improving through consistent 
 - Practising data structures and algorithms with Java
 - Continuously learning by building and improving projects
 
-## <span style="color:#FF3048">//</span> Tech Stack
+<img src="assets/red-divider.svg" width="100%" height="4" alt="" />
+
+## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> TECH STACK
 
 <div align="center">
 
@@ -31,7 +33,9 @@ Building practical applications, exploring AI, and improving through consistent 
 
 </div>
 
-## <span style="color:#FF3048">//</span> Featured Projects
+<img src="assets/red-divider.svg" width="100%" height="4" alt="" />
+
+## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> FEATURED PROJECTS
 
 <table>
 <tr>
@@ -68,7 +72,9 @@ Java solutions to LeetCode problems, organised by topic with explanations and co
 </tr>
 </table>
 
-## <span style="color:#FF3048">//</span> GitHub Overview
+<img src="assets/red-divider.svg" width="100%" height="4" alt="" />
+
+## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> GITHUB STREAK
 
 <div align="center">
 
@@ -76,19 +82,23 @@ Java solutions to LeetCode problems, organised by topic with explanations and co
 
 </div>
 
-## <span style="color:#FF3048">//</span> LeetCode
+<img src="assets/red-divider.svg" width="100%" height="4" alt="" />
+
+## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> LEETCODE
 
 <div align="center">
 
 <a href="https://leetcode.com/u/namitharavi/">
-  <img src="https://leetcard.jacoblin.cool/namitharavi?theme=dark&font=Baloo&ext=contest" alt="LeetCode progress for namitharavi" width="430" />
+  <img src="assets/leetcode-card.svg" alt="Compact red LeetCode profile snapshot" width="520" />
 </a>
 
-<sub><a href="https://leetcode.com/u/namitharavi/">View LeetCode profile ↗</a></sub>
+<sub><a href="https://leetcode.com/u/namitharavi/">Open LeetCode profile ↗</a> · Snapshot dated 15 Nov 2026</sub>
 
 </div>
 
-## <span style="color:#FF3048">//</span> GitHub Activity — Last 30 Days
+<img src="assets/red-divider.svg" width="100%" height="4" alt="" />
+
+## <img src="assets/red-mark.svg" width="12" height="12" alt=""/> GITHUB ACTIVITY — LAST 30 DAYS
 
 <div align="center">
 
