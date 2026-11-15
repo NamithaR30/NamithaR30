@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a compact red-accent GitHub contribution grid for the latest 30 days."""
+"""Generate a compact crimson 30-day GitHub contribution tracker."""
 from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -52,25 +52,42 @@ def fetch_contributions(start, end):
 
 
 def build_svg(levels, start, end):
-    cell, gap, width, height = 20, 9, 560, 166
-    left, top = (width - (6 * cell + 5 * gap)) // 2, 62
+    # Wide 10 x 3 layout: compact, readable, and fully inside the SVG canvas.
+    cell, gap = 18, 7
+    columns, rows = 10, 3
+    grid_width = columns * cell + (columns - 1) * gap
+    left = (560 - grid_width) // 2
+    top = 57
+    height = 184
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="560" height="166" viewBox="0 0 {width} {height}" role="img" aria-label="Last 30 days of GitHub contribution activity">',
-        '<rect width="560" height="166" rx="12" fill="#090909"/>',
-        '<text x="24" y="29" fill="#F4E9EA" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">LAST 30 DAYS</text>',
-        f'<text x="536" y="29" text-anchor="end" fill="#B98B91" font-family="Segoe UI,Arial,sans-serif" font-size="12">{start.strftime("%d %b")} — {end.strftime("%d %b %Y")}</text>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="560" height="{height}" viewBox="0 0 560 {height}" role="img" aria-label="Last 30 days of GitHub contribution activity">',
+        f'<rect width="560" height="{height}" rx="12" fill="#090909"/>',
+        '<text x="24" y="28" fill="#F4E9EA" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing=".5">LAST 30 DAYS</text>',
+        f'<text x="536" y="28" text-anchor="end" fill="#B98B91" font-family="Segoe UI,Arial,sans-serif" font-size="12">{start.strftime("%d %b")} — {end.strftime("%d %b %Y")}</text>',
     ]
     for i in range(30):
         day = start + timedelta(days=i)
-        row, col = divmod(i, 6)
-        x, y = left + col * (cell + gap), top + row * (cell + gap)
+        row, col = divmod(i, columns)
+        x = left + col * (cell + gap)
+        y = top + row * (cell + gap)
         level = levels.get(day, 0)
-        parts.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="5" fill="{COLORS[level]}"><title>{day.isoformat()}: contribution level {level} of 4</title></rect>')
-    legend_y = 147
-    parts.append(f'<text x="{left}" y="{legend_y}" fill="#B98B91" font-family="Segoe UI,Arial,sans-serif" font-size="10">LESS</text>')
+        parts.append(
+            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="4" fill="{COLORS[level]}">'
+            f'<title>{day.strftime("%d %b %Y")}: contribution level {level} of 4</title></rect>'
+        )
+
+    legend_y = 151
+    legend_start = 220
+    parts.append(
+        f'<text x="{legend_start}" y="{legend_y}" fill="#B98B91" font-family="Segoe UI,Arial,sans-serif" font-size="10">LESS</text>'
+    )
     for i, color in enumerate(COLORS):
-        parts.append(f'<rect x="{left + 42 + i*20}" y="{legend_y-10}" width="12" height="12" rx="3" fill="{color}"/>')
-    parts.append(f'<text x="{left + 42 + 5*20}" y="{legend_y}" fill="#B98B91" font-family="Segoe UI,Arial,sans-serif" font-size="10">MORE</text>')
+        parts.append(
+            f'<rect x="{legend_start + 38 + i*21}" y="{legend_y-10}" width="12" height="12" rx="3" fill="{color}"/>'
+        )
+    parts.append(
+        f'<text x="{legend_start + 38 + 5*21 + 17}" y="{legend_y}" fill="#B98B91" font-family="Segoe UI,Arial,sans-serif" font-size="10">MORE</text>'
+    )
     parts.append("</svg>")
     return "\n".join(parts)
 
