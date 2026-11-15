@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Namitha R. Software Developer">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090909"/><stop offset=".58" stop-color="#160609"/><stop offset="1" stop-color="#050505"/></linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7A0716"/><stop offset=".5" stop-color="#F21D35"/><stop offset="1" stop-color="#7A0716"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+<path d="M0 230 C190 170 280 260 470 205 S760 230 910 130 S1080 70 1200 20" fill="none" stroke="#5D0A17" stroke-width="2" opacity=".7"/>
+<path d="M0 250 C220 180 330 260 520 205 S780 220 930 135 S1090 80 1200 42" fill="none" stroke="url(#red)" stroke-width="2.2" filter="url(#glow)"/>
+<path d="M420 280 C650 210 730 230 900 130 S1090 45 1200 18" fill="none" stroke="#A20D23" stroke-width="1.2" opacity=".8"/>
+<path d="M520 280 C730 220 800 220 950 135 S1100 68 1200 48" fill="none" stroke="#E21A32" stroke-width="1" opacity=".55"/>
+<path d="M570 280 C770 215 850 210 990 130 S1110 75 1200 65" fill="none" stroke="#8F0C1D" stroke-width="1" opacity=".65"/>
+<rect x="55" y="52" width="3" height="155" fill="#F21D35"/>
+<text x="90" y="145" fill="#F5F5F5" font-family="Georgia, 'Times New Roman', serif" font-size="72" letter-spacing="7">NAMITHA R.</text>
+<text x="95" y="190" fill="#D6D6D6" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="11">SOFTWARE DEVELOPER</text>
+<path d="M95 215 H190" stroke="#F21D35" stroke-width="4"/>
+<text x="1060" y="150" fill="#F21D35" font-family="monospace" font-size="58" font-weight="bold">&lt;/&gt;</text>
+</svg>
