@@ -1,46 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 254 251" role="img" aria-label="GitHub contribution activity for the last 30 days">
-<rect width="100%" height="100%" rx="12" fill="#0D1117"/>
-<text x="20" y="25" fill="#D7E2EE" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">30-day contribution activity</text>
-<text x="234" y="25" text-anchor="end" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="11">17 Oct – 15 Nov 2026</text>
-<text x="20" y="61" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Mon</text>
-<text x="20" y="107" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Wed</text>
-<text x="20" y="153" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Fri</text>
-<text x="20" y="199" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Sun</text>
-<rect x="94" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-17: activity level 0 of 4</title></rect>
-<rect x="94" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-18: activity level 0 of 4</title></rect>
-<rect x="117" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-19: activity level 0 of 4</title></rect>
-<rect x="117" y="71" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-20: activity level 0 of 4</title></rect>
-<rect x="117" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-21: activity level 0 of 4</title></rect>
-<rect x="117" y="117" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-22: activity level 0 of 4</title></rect>
-<rect x="117" y="140" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-23: activity level 0 of 4</title></rect>
-<rect x="117" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-24: activity level 0 of 4</title></rect>
-<rect x="117" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-25: activity level 0 of 4</title></rect>
-<rect x="140" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-26: activity level 0 of 4</title></rect>
-<rect x="140" y="71" width="17" height="17" rx="4" fill="#3A5876"><title>2026-10-27: activity level 2 of 4</title></rect>
-<rect x="140" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-28: activity level 0 of 4</title></rect>
-<rect x="140" y="117" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-29: activity level 0 of 4</title></rect>
-<rect x="140" y="140" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-30: activity level 0 of 4</title></rect>
-<rect x="140" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-10-31: activity level 0 of 4</title></rect>
-<rect x="140" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-01: activity level 0 of 4</title></rect>
-<rect x="163" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-02: activity level 0 of 4</title></rect>
-<rect x="163" y="71" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-03: activity level 0 of 4</title></rect>
-<rect x="163" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-04: activity level 0 of 4</title></rect>
-<rect x="163" y="117" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-05: activity level 0 of 4</title></rect>
-<rect x="163" y="140" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-06: activity level 0 of 4</title></rect>
-<rect x="163" y="163" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-07: activity level 0 of 4</title></rect>
-<rect x="163" y="186" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-08: activity level 0 of 4</title></rect>
-<rect x="186" y="48" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-09: activity level 0 of 4</title></rect>
-<rect x="186" y="71" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-10: activity level 0 of 4</title></rect>
-<rect x="186" y="94" width="17" height="17" rx="4" fill="#161B22"><title>2026-11-11: activity level 0 of 4</title></rect>
-<rect x="186" y="117" width="17" height="17" rx="4" fill="#26384C"><title>2026-11-12: activity level 1 of 4</title></rect>
-<rect x="186" y="140" width="17" height="17" rx="4" fill="#5F83A8"><title>2026-11-13: activity level 3 of 4</title></rect>
-<rect x="186" y="163" width="17" height="17" rx="4" fill="#5F83A8"><title>2026-11-14: activity level 3 of 4</title></rect>
-<rect x="186" y="186" width="17" height="17" rx="4" fill="#9BBDE0"><title>2026-11-15: activity level 4 of 4</title></rect>
-<text x="20" y="225" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">Less</text>
-<rect x="54" y="215" width="14" height="14" rx="3" fill="#161B22"/>
-<rect x="76" y="215" width="14" height="14" rx="3" fill="#26384C"/>
-<rect x="98" y="215" width="14" height="14" rx="3" fill="#3A5876"/>
-<rect x="120" y="215" width="14" height="14" rx="3" fill="#5F83A8"/>
-<rect x="142" y="215" width="14" height="14" rx="3" fill="#9BBDE0"/>
-<text x="166" y="225" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">More</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="166" viewBox="0 0 560 166" role="img" aria-label="Last 30 days of GitHub contribution activity">
+<rect width="560" height="166" rx="12" fill="#0D1117"/>
+<text x="24" y="29" fill="#D7E2EE" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">LAST 30 DAYS</text>
+<text x="536" y="29" text-anchor="end" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="12">17 Oct — 15 Nov 2026</text>
+<rect x="197" y="62" width="20" height="20" rx="5" fill="#161B22"><title>17 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="226" y="62" width="20" height="20" rx="5" fill="#161B22"><title>18 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="255" y="62" width="20" height="20" rx="5" fill="#161B22"><title>19 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="284" y="62" width="20" height="20" rx="5" fill="#161B22"><title>20 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="313" y="62" width="20" height="20" rx="5" fill="#161B22"><title>21 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="342" y="62" width="20" height="20" rx="5" fill="#161B22"><title>22 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="197" y="91" width="20" height="20" rx="5" fill="#161B22"><title>23 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="226" y="91" width="20" height="20" rx="5" fill="#161B22"><title>24 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="255" y="91" width="20" height="20" rx="5" fill="#161B22"><title>25 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="284" y="91" width="20" height="20" rx="5" fill="#161B22"><title>26 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="313" y="91" width="20" height="20" rx="5" fill="#26384C"><title>27 Oct 2026: contribution level 1 of 4</title></rect>
+<rect x="342" y="91" width="20" height="20" rx="5" fill="#161B22"><title>28 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="197" y="120" width="20" height="20" rx="5" fill="#161B22"><title>29 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="226" y="120" width="20" height="20" rx="5" fill="#161B22"><title>30 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="255" y="120" width="20" height="20" rx="5" fill="#161B22"><title>31 Oct 2026: contribution level 0 of 4</title></rect>
+<rect x="284" y="120" width="20" height="20" rx="5" fill="#161B22"><title>01 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="313" y="120" width="20" height="20" rx="5" fill="#161B22"><title>02 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="342" y="120" width="20" height="20" rx="5" fill="#161B22"><title>03 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="197" y="149" width="20" height="20" rx="5" fill="#161B22"><title>04 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="226" y="149" width="20" height="20" rx="5" fill="#161B22"><title>05 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="255" y="149" width="20" height="20" rx="5" fill="#161B22"><title>06 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="284" y="149" width="20" height="20" rx="5" fill="#161B22"><title>07 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="313" y="149" width="20" height="20" rx="5" fill="#161B22"><title>08 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="342" y="149" width="20" height="20" rx="5" fill="#161B22"><title>09 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="197" y="178" width="20" height="20" rx="5" fill="#161B22"><title>10 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="226" y="178" width="20" height="20" rx="5" fill="#161B22"><title>11 Nov 2026: contribution level 0 of 4</title></rect>
+<rect x="255" y="178" width="20" height="20" rx="5" fill="#26384C"><title>12 Nov 2026: contribution level 1 of 4</title></rect>
+<rect x="284" y="178" width="20" height="20" rx="5" fill="#3A5876"><title>13 Nov 2026: contribution level 2 of 4</title></rect>
+<rect x="313" y="178" width="20" height="20" rx="5" fill="#3A5876"><title>14 Nov 2026: contribution level 2 of 4</title></rect>
+<rect x="342" y="178" width="20" height="20" rx="5" fill="#9BBDE0"><title>15 Nov 2026: contribution level 4 of 4</title></rect>
+<text x="197" y="147" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">LESS</text>
+<rect x="239" y="137" width="12" height="12" rx="3" fill="#161B22"/>
+<rect x="259" y="137" width="12" height="12" rx="3" fill="#26384C"/>
+<rect x="279" y="137" width="12" height="12" rx="3" fill="#3A5876"/>
+<rect x="299" y="137" width="12" height="12" rx="3" fill="#5F83A8"/>
+<rect x="319" y="137" width="12" height="12" rx="3" fill="#9BBDE0"/>
+<text x="339" y="147" fill="#8295AA" font-family="Segoe UI,Arial,sans-serif" font-size="10">MORE</text>
 </svg>
