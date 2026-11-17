@@ -29,7 +29,7 @@ Building practical applications, exploring AI, and improving through consistent 
 
 <div align="center">
 
-[![Tech Stack](https://skillicons.dev/icons?i=java,c,cpp,python,html,css,js,nodejs,express,mysql,mongodb,firebase,git,github,vscode,androidstudio&perline=8&theme=dark)](https://skillicons.dev)
+[![Tech Stack](https://skillicons.dev/icons?i=java,c,python,html,css,js,nodejs,express,mysql,mongodb,firebase,git,github,vscode,androidstudio&perline=8&theme=dark)](https://skillicons.dev)
 
 </div>
 
